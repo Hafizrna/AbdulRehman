@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <!-- Google Font Links -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- FOntawsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Style sheet link  -->
+
+    <link rel="stylesheet" href="Abdulrehman.css">
+    <link rel="stylesheet" href="mediaquerries.css">
+
+    <!-- Michalsnik/aos css link  -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- JavaScript link  -->
+
+    <script src="Abdulrehman.js"></script>
+
+    <!-- Favicon link -->
+
+    <link rel="shortcut icon" href="Icons/favicon.png" type="image/x-icon">
+
+    <title>AbdulRehman | Front-End Developer</title>
+</head>
+
+<body>
+    <!-- loader -->
+<!-- 
+    <div id="loader">
+        <div class="preloader">
+            
+        </div>
+
+    </div> -->
+    <!-- Header -->
+
+
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="Icons/AR.png" alt="">
+                <div class="name">
+                    AbdulRehman
+                </div>
+            </div>
+            <div class="list">
+                <ul class="nav-list" data-aos="zoom-in" data-aos-duration="1500">
+                    <li class="nav-item hidOnMobile"><a href="#home" >Home</a></li>
+                    <li class="nav-item hidOnMobile"><a href="#about">About</a></li>
+                    <li class="nav-item hidOnMobile"><a href="#qualification">Qualification</a></li>
+                    <li class="nav-item hidOnMobile"><a href="#services">Services</a></li>
+                    <li class="nav-item hidOnMobile"><a href="#projects">Projects</a></li>
+                    <li class="nav-item hidOnMobile"><a href="#contact">Contact</a></li>
+                    <li class="menu-button" onclick=showSidebar() ><img src="Icons/menu.png" alt="" width="40px"></li>
+                </ul>
+                <ul class="sidebar" data-aos="zoom-in" data-aos-duration="1500">
+                    <li onclick=hideSidebar() style="margin-bottom: 10px;"><img src="Icons/close.png" alt="" width="35px" style="margin-left: 10px;"></li>
+                    <li class="nav-item" style="margin-bottom: 5px;"><a href="#home">Home</a></li>
+                    <li class="nav-item" style="margin-bottom: 5px;"><a href="#about">About</a></li>
+                    <li class="nav-item" style="margin-bottom: 5px;"><a href="#qualification">Qualification</a></li>
+                    <li class="nav-item" style="margin-bottom: 5px;"><a href="#services">Services</a></li>
+                    <li class="nav-item" style="margin-bottom: 5px;"><a href="#projects">Projects</a></li>
+                    <li class="nav-item" style="margin-bottom: 5px;"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section  -->
+
+    <mian class="mian">
+
+
+        <!-- Home Section  -->
+        <section id="home">
+            <div class="home-main-container">
+                <div class="my-intro">
+                    <h1 data-aos="fade-right" data-aos-duration="1600">Hi, I'm AbdulRehman</h1>
+                    <h1 style="font-size: 2rem;" data-aos="fade-right" data-aos-duration="1600">Front-End Developer.</h1>
+                    <div class="home-hr" data-aos="fade-right" data-aos-duration="1700">
+                        <hr class="under-heading">
+                    </div>
+                    <p class="detail" id="details"  data-aos="fade-left" data-aos-duration="1800">As a lifelong advocate for technological innovation, I'm dedicated
+                        to fostering a new generation of visionary entrepreneurs. My passion lies in empowering individuals to turn
+                        their ideas into reality and make a positive impact on the world.
+                    </p>
+                    <hr class="under-paragraph" id="under-paragraph"  data-aos="zoom-out" data-aos-duration="1900">
+                    <div class="boxes" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="experience number boxes-test-color" id="skill-rate"  >
+                            <h1>+1.5</h1>
+                            <p>Year</p>
+                            <p>Experience</p>
+                        </div>
+                        <div class="project number  boxes_margin_left" id="skill-rate" >
+                            <h1>+5</h1>
+                            <p>Projects
+                            <p>
+                            <p>Completed</p>
+                        </div>
+                        <div class="client number boxes_margin_left" id="skill-rate">
+                            <div id="countPercentage"> <h1 >0%</h1></div>
+                            <p>Client</p>
+                            <p>satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-pic" data-aos="zoom-in" data-aos-duration="1500">
+                    <img loading="lazy" src="image and videos/me.png" alt="AbdulRehman" >
+                </div>
+            </div>
+        </section>
+
+
+        <!-- About Section -->
+
+        <section id="about">
+            <div class="about-head" data-aos="zoom-in" data-aos-duration="1500">
+                <h1>About Me</h1>
+                <h3>Who am I</h3>
+                <hr>
+            </div>
+            <div class="about-container">
+                <div class="about-left-container">
+                    <h1 data-aos="fade-right" data-aos-duration="1500">Professional <span style="color: #AFFF40;" >Problem Solutions</span><br>
+                        For Your Product</h1>
+                    <p data-aos="fade-left" data-aos-duration="1500">Our digital innovation hub offers a wide range of skills, including frontend technologies like
+                        React.js, Tailwind CSS. Our team also specializes in digital marketing, SEO, and data analytics,
+                        ensuring your project looks greatand performs exceptionally. Collaborate with us to maximize
+                        your digital presence and elevate your business.
+                    </p>
+                    <div class="about-btn" data-aos="fade-up" data-aos-duration="1500">
+                        <a href="https://www.linkedin.com/in/hafiz-abdul-rehman-049a4a253/" target="_blank"><button class="know-more-btn">Know More</button></a>
+                    </div>
+                </div>
+                <div class="about-right-container">
+                    <h1 data-aos="fade-left" data-aos-duration="1500">Technologies I've working with</h1>
+                    <div class="about-right-subcontainer">
+                        <div class="frontend frontend-backend-heading " data-aos="fade-up" data-aos-duration="1700">
+                            <h2>Frontend</h2>
+                            <div class="backend-name">
+                                <img src="Icons/arrow_right.png" alt="">
+                                HTML
+                            </div>
+                            <div class="backend-name">
+                                <img src="Icons/arrow_right.png" alt="">
+                                CSS
+                            </div>
+                            <div class="backend-name">
+                                <img src="Icons/arrow_right.png" alt="">
+                                JavaScript
+                            </div>
+                            <div class="backend-name">
+                                <img src="Icons/arrow_right.png" alt="">
+                                Bootstrap
+                            </div>
+                            <div class="backend-name">
+                                <img src="Icons/arrow_right.png" alt="">
+                                React Js
+                            </div>
+                        </div>
+                        <div class="backend frontend-backend-heading " data-aos="fade-up" data-aos-duration="1800">
+                            <h2>Backend</h2>
+                            <div class="backend-name">
+                                <img src="Icons/arrow_right.png" alt="">
+                                Python
+                            </div>
+                            <div class="backend-name">
+                                <img src="Icons/arrow_right.png" alt="">
+                                Node.Js
+                            </div>
+                            <div class="backend-name">
+                                <img src="Icons/arrow_right.png" alt="">
+                                Php
+                            </div>
+                            <div class="backend-name">
+                                <img src="Icons/arrow_right.png" alt="">
+                                My SQL
+                            </div>
+                            <div class="backend-name">
+                                <img src="Icons/arrow_right.png" alt="">
+                                MongoDB
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Qualification -->
+
+        <section id="qualification">
+            <div class="qualification-head" data-aos="zoom-in" data-aos-duration="1500">
+                <h1>Qualification</h1>
+                <h3>Education & Experties</h3>
+                <hr>
+            </div>
+            <div class="education qualification-main-boxes">
+                <div class="qualification-main" id="edu-hr">
+                    <div class=" education qualification-subhead" class="qualification-head" data-aos="fade-right" data-aos-duration="1500">
+                        <img src="Icons/education.png" alt="">
+                        <h1>Education </h1>
+                    </div>
+                    <hr>
+                    <div class="qualification-boxes">
+                        <div class="qualification-box" class="qualification-head" data-aos="zoom-in" data-aos-duration="1600">
+                            <h1>Matriculation</h1>
+                            <p>I completed my matriculation journey from Government High School Mundekey,This stage laid
+                                the foundation for academic discipline and a
+                                passion for learning.</p>
+                            <p style="margin-top: 18px;">2017-2018</p>
+
+                        </div>
+                        <div class="qualification-box" class="qualification-head" data-aos="zoom-in" data-aos-duration="1700">
+                            <h1>Intermediate</h1>
+                            <p>After matriculation, I completed my intermediate education at Punjab College Daska.
+                                This period marked a significant step in my academic journey.</p>
+                            <p style="margin-top: 18px;">2019-2020</p>
+                        </div>
+                        <div class="qualification-box" class="qualification-head" data-aos="zoom-in" data-aos-duration="1800">
+                            <h1>Bachelor’s Degree</h1>
+                            <p>After Intermediate, I memorized the Holy Quran in one and half year, after that now I am
+                                going to universitsy for my Bachelor’s Degree in Software Engineering at University of
+                                Sialkot.</p>
+                            <p style="margin-top: 18px;">2022-Ongoing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="experties experties-main-boxes">
+                <div class="qualification-main">
+                    <div class=" experties qualification-subhead" class="qualification-head" data-aos="fade-right" data-aos-duration="1500">
+                        <img src="Icons/experties.png" alt="">
+                        <h1>xperties</h1>
+                    </div>
+                    <hr>
+                    <div class="qualification-boxes">
+                        <div class="qualification-box" class="qualification-head" data-aos="zoom-in" data-aos-duration="1600">
+                            <h1>Full Stack Developer</h1>
+                            <p>I want to master both front-end and back-end development. My journey towards becoming a
+                                full-stack developer is well underway.</p>
+                            <p style="margin-top: 18px;">Level: Good</p>
+                        </div>
+                        <div class="qualification-box" class="qualification-head" data-aos="zoom-in" data-aos-duration="1700">
+                            <h1>Web Designer</h1>
+                            <p>Due to my interest in designing, I can design and develop visually appealing websites
+                                that are user-friendly using Figma.</p>
+                            <p style="margin-top: 18px;">Level: Very Good</p>
+                        </div>
+                        <div class="qualification-box" class="qualification-head" data-aos="zoom-in" data-aos-duration="1800">
+                            <h1>Digital marketing</h1>
+                            <p>I know the importance of DM in this current era and I am eager to learn more about it and
+                                incorporate it into the services I provide.</p>
+                            <p style="margin-top: 18px;">Level: Average</p>
+                        </div>
+                        <div class="experties-btn" class="qualification-head" data-aos="zoom-in" data-aos-duration="1500">
+                            <a href="https://www.linkedin.com/in/hafiz-abdul-rehman-049a4a253/" target="_blank"><button class="know-more-btn" style="padding: 10px 40px;">Resume</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="experties qualification-main-boxes qualification-btn">
+                <div class="qualification-main" style="height: 15vh;">
+                    <hr>
+                    <div class="qualification-footer qualification-subhead">
+                        <div class="qualification-footer-text" class="qualification-head" data-aos="fade-up" data-aos-duration="1500">
+                            Inspect my entire CV
+                        </div>
+                        <div class="qualification-btn" class="qualification-head" data-aos="fade-up" data-aos-duration="1500">
+                            <button class="know-more-btn" style="padding: 10px 40px;">Resume</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+
+
+        <section id="services">
+            <div class="services-head" class="qualification-head" data-aos="zoom-in" data-aos-duration="1500">
+                <h1>Services</h1>
+                <h3>Which I provided</h3>
+                <hr>
+            </div>
+            <div class="service service-main-boxes">
+                <div class="service-box " class="qualification-head" data-aos="zoom-in" data-aos-duration="1800">
+                    <img src="Icons/frontend.png" alt="">
+                    <h1>Frontend <br>Development</h1>
+                    <a href="https://www.linkedin.com/in/hafiz-abdul-rehman-049a4a253/">Know more</a>
+                </div>
+                <div class="service-box" class="qualification-head" data-aos="zoom-in" data-aos-duration="1800">
+                    <img src="Icons/shopify store.png" alt="">
+                    <h1>Shopify Store <br>Development</h1>
+                    <a href="https://www.linkedin.com/in/hafiz-abdul-rehman-049a4a253/">Know more</a>
+                </div>
+                <div class="service-box" class="qualification-head" data-aos="zoom-in" data-aos-duration="1800">
+                    <img src="Icons/webdesigning.png" alt="">
+                    <h1>UI/UX <br>Designer</h1>
+                    <a href="https://www.linkedin.com/in/hafiz-abdul-rehman-049a4a253/">Know more</a>
+                </div>
+            </div>
+            <di class="hire-me">
+                <div class="video-hire" class="qualification-head" data-aos="zoom-in" data-aos-duration="1800">
+                <h1>Why do you need to hire me ?</h1>
+                <video src="image and videos/Intro video for Frontend developer.mp4" controls ></video>
+            </div>
+            </di>
+        </section>
+
+
+        <!-- Project Section -->
+
+       <section id="projects">
+            <div class="services-head" class="qualification-head" data-aos="zoom-in" data-aos-duration="1500">
+                <h1>Projects</h1>
+                <h3>My recent efforts</h3>
+                <hr>
+            </div>
+            <div class="project-center">
+            <div class="project project-main-boxes">
+                <div class="project-box " class="qualification-head" data-aos="zoom-in" data-aos-duration="1600">
+                    <img src="projects/amazon.png" alt="">
+                    <hr>
+                    <h1>Amazon Clone</h1>
+                    <p>I created this <strong style="font-size: 16px;">Amazon clone</strong> with the aim of
+                        improving my skills, which will help me in my web development journey.</p>
+                    <a href="Amazon Clone using HTML & CSS/index.html" aria-multiline="" target="_blank">Preview
+                        Project ></a>
+                </div>
+                <div class="project-box" class="qualification-head" data-aos="zoom-in" data-aos-duration="1700">
+                    <img src="projects/netflix.png" alt="" target="_blank">
+                    <hr>
+                    <h1>Netflix clone</h1>
+                    <p>I created this <strong style="font-size: 16px;">Netflix clone </strong> with the aim of
+                        improving my skills, which will help me in my web development journey.</p>
+                    <a href="NetFlix/index.html" target="_blank">Preview Project > </a>
+                </div>
+                <div class="project-box" class="qualification-head" data-aos="zoom-in" data-aos-duration="1800">
+                    <img src="projects/personal portfolio.jpg" alt="">
+                    <hr>
+                    <h1>Personal portfolio</h1>
+                    <p>I created this <strong style="font-size: 16px;">Personal Portfolio</strong> with the aim
+                        of improving my skills, which will help me in my web development journey.</p>
+                    <a href="portfolio website/index.html" target="_blank">Preview Project ></a>
+                </div>
+            </div>
+        </div>
+        </section> 
+
+        <!-- Contact section -->
+
+
+        <section id="contact">
+            <div class="services-head" class="qualification-head" data-aos="zoom-in" data-aos-duration="1500">
+                <h1>Contact</h1>
+                <h3>you can take more detail</h3>
+                <hr>
+            </div> 
+            <div class="contact-main">
+                <div class="contact-left-container" class="qualification-head" data-aos="fade-right" data-aos-duration="1700">
+                        <h3>Get in Touch</h3>
+                        <h1>Let's Talk For Your</h1>
+                        <h2>Next Project</h2>
+                        <div class="info">
+                            <img src="Icons/mail.png" alt="">
+                            <h5>habdulrehman215@gmail.com</h5>
+                        </div>
+                        <div class="info">
+                            <img src="Icons/phone.png" alt="">
+                            <h5>+923237067800</h5>
+                        </div>
+                        <div class="info">
+                            <img src="Icons/location.png" alt="">
+                            <h5>city Daska, Punjab <br> Pakistan</h5>
+                        </div>
+                        <div class="social-icons">
+                            <div class="icon">
+                                <a href="https://www.facebook.com/profile.php?id=100058334052333" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-square-facebook fa-2xl"></i>
+                            </a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://github.com/Hafizrna" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-square-github fa-2xl"></i>
+                            </a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://www.linkedin.com/in/hafiz-abdul-rehman-049a4a253/" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-linkedin fa-2xl"></i>
+                            </a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://www.instagram.com/abdulrehmanmustafvi/" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-instagram fa-2xl"></i>
+                            </a>
+                            </div>
+                            
+                        </div>
+                        <div class="contact-btn">
+                            <a href="https://wa.me/message/LY75SIFW77EAA1" target="_blank"><button class="get-in-touch-btn">Get in Touch</button></a>
+                        </div>
+                </div>
+                <div class="contact-right-container" class="qualification-head" data-aos="fade-left" data-aos-duration="1900">
+                        <div class="form-container">
+                            <form action="#" method="POST" class="responsive-form">
+                                <label for="full-name">Full Name <span>*</span></label>
+                                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name"
+                                    required>
+
+                                <label for="phone">Phone Number <span>*</span></label>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"
+                                    required>
+
+                                <label for="message">Message <span>*</span></label>
+                                <textarea id="message" name="message" placeholder="Write your message here" rows="4"
+                                    required></textarea>
+
+                                <button class="submit-btn" type="submit">Submit</button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    </mian>
+    <!-- footer -->
+    <footer>
+        <a href="#home"><h5>Copyright @2024,Here is the code. All Rights Reserved</h5></a>   
+    </footer> 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

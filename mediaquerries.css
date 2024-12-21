@@ -1,0 +1,381 @@
+/* Nav Bar media querries */
+
+@media(max-width: 990px) {
+    .hidOnMobile {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+}
+
+@media(max-width: 520px) {
+    .sidebar {
+        width: 82%;
+    }
+}
+
+
+/* Home  */
+
+@media (max-width: 968px) {
+    .home-main-container {
+        flex-direction: column;
+    }
+
+    #home {
+        height: 120vh;
+    }
+
+    .my-pic {
+        justify-content: center;
+    }
+
+    .my-intro {
+        width: 484px;
+        text-align: center;
+    }
+
+    .home-hr {
+        display: flex;
+        justify-content: center;
+    }
+
+    .number {
+        text-align: center;
+    }
+
+    .boxes {
+        justify-content: center;
+    }
+
+    .home-main-container {
+        margin-top: 20px;
+
+    }
+}
+
+@media (max-width: 460px) {
+    #details {
+        font-size: 15px;
+        padding: 0 40px 0 40px;
+        text-align: justify;
+    }
+
+    #under-paragraph {
+        width: 50%;
+        margin: 3rem auto;
+    }
+
+    #skill-rate {
+        text-align: justify;
+        align-items: center;
+    }
+
+    #home {
+        height: 130vh;
+    }
+
+    .my-intro h1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 400px) {
+    #details {
+        font-size: 15px;
+        text-wrap: wrap;
+        justify-content: center;
+        padding: 0 75px 0 75px;
+        text-align: justify;
+    }
+
+    #under-paragraph {
+        width: 50%;
+        border: none;
+        background-color: var(--color-text);
+        margin: 3rem auto;
+    }
+
+    #skill-rate {
+        text-align: justify;
+        align-items: center;
+    }
+
+    #home {
+        height: 120vh;
+        padding-top: 100px;
+    }
+
+    .home-main-container {
+        padding-top: 0px;
+    }
+
+    .my-intro h1 {
+        font-size: 30px;
+    }
+}
+
+
+/* About */
+
+
+@media (max-width: 968px) {
+    #about {
+        height: 140vh;
+        padding-top: 100px;
+    }
+
+    .about-head hr {
+        width: 10%;
+        margin-bottom: 50px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .know-more-btn {
+        padding: 12px 100px;
+      }
+    .about-right-container {
+        margin-top: 100px;
+        width: 100%;
+    }
+    .about-left-container h1 {
+        text-align: center;
+        padding: 0 3px;
+    }
+
+    .about-left-container p {
+        text-align: justify;
+        padding:  0 15px;
+    }
+
+    .about-btn {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 480px) {
+    #about {
+        padding-top: 50px;
+    }
+
+    .about-left-container h1 {
+        font-size: 25px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about-left-container span {
+        font-size: 18px;
+    }
+
+    .about-left-container {
+        width: 360px;
+        padding: 30px 20px 0px 20px;
+    }
+
+    .about-left-container p {
+        font-size: 15px;
+    }
+
+    .frontend-backend-heading h2 {
+        padding: 20px 0px;
+    }
+
+    .about-right-container {
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width: 460px) {
+    #about {
+        padding-top: 80px;
+    }
+
+    .about-head {
+        padding-top: 2rem;
+    }
+}
+
+
+
+/* Qualification */
+
+@media (max-width: 968px) {
+    #qualification {
+        height: 255vh;
+    }
+
+    .qualification-boxes {
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+        gap: 0px;
+        padding-top: 50px;
+    }
+
+    .qualification-head hr {
+        width: 20%;
+    }
+
+    .qualification-subhead {
+        display: flex;
+        justify-content: center;
+    }
+
+    .qualification-main hr {
+        background-color: var(--color-text);
+        height: 1px;
+        width: 50%;
+    }
+
+    .qualification-btn {
+        display: none;
+    }
+
+    .qualification-btn hr {
+        display: none;
+    }
+
+    .experties-btn {
+        display: block;
+    }
+
+    .qualification-footer-text {
+        display: none;
+    }
+
+    .experties-main-boxes {
+        display: flex;
+        justify-content: center;
+        margin-top: 550px;
+    }
+
+    .qualification-box {
+        background-color: var(--color-bg-secondary);
+        border-left: 3px solid var(--color-primary);
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 10px 10px 20px 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .qualification-box h1 {
+        padding-top: 10px;
+    }
+
+    #edu-hr hr {
+        margin-bottom: 25px;
+    }
+}
+
+
+
+/* services  */
+
+@media (max-width: 968px) {
+    #services {
+        height: 180vh;
+    }
+    .service-main-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-head hr {
+        width: 10%;
+    }
+
+    .service-box {
+        border-bottom: 3px solid var(--color-primary);
+        border-radius: 5px;
+    }
+    .video-hire video{
+        width: 400px;
+        height: 250px;
+      }
+}
+@media (max-width: 470px){
+    .video-hire video{
+        width: 300px;
+        height: 250px;
+      }
+      .video-hire h1{
+        font-size: 20px;
+      }
+}
+
+/* project */
+
+
+@media (max-width:968px) {
+
+    #projects {
+        height: 190vh;
+    }
+
+    .project-main-boxes {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+/* Contact */
+
+
+@media (max-width: 968px) {
+    #contact {
+        height: 140vh;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact-main {
+        flex-direction: column;
+        margin-top: 200px;
+    }
+
+    .contact-left-container {
+        padding: 30px 0 0 50px;
+    }
+
+    .contact-right-container {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 470px) {
+    .contact-left-container {
+        padding: 30px 0 0 105px;
+    }
+
+    .form-container {
+        width: 70%;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 350px) {
+    .contact-left-container {
+        padding: 30px 0 0 110px;
+    }
+
+    .form-container {
+        width: 70%;
+        margin-left: 60px;
+    }
+}
+
+/* Footer */
+@media (max-width: 365px) {
+    footer a {
+        font-size: 12px;
+    }
+}
