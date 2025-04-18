@@ -24,7 +24,7 @@ const Navbar = () => {
                     <a href="#Projects" className='cursor-pointer hover:text-gray-400'>Project</a>
                     <a href="#Testimonials" className='cursor-pointer hover:text-gray-400'>Testimonial</a>
                 </ul>
-                <a href="tel: +923237067800" ><button className='hidden text-white md:block hover:bg-blue-400 bg-blue-500 px-8 py-2 rounded font-bold'>Call me</button></a>
+                <a href="https://wa.me/923237067800"  target='blank'><button className='hidden text-white md:block hover:bg-blue-400 bg-blue-500 px-8 py-2 rounded font-bold'>Hire me</button></a>
                 <img onClick={() => setMobileMenue(true)} src={assets.menu_icon} className='md:hidden w-7 cursor-pointer' alt="" />
             </div>
             {/* ------------Mobile menue--------------- */}
@@ -38,7 +38,7 @@ const Navbar = () => {
                     <a onClick={() => setMobileMenue(false)} href="#Projects" className='px-4 py-2 rounded inline-block w-full font-bold text-center bg-gray-200'>Projects</a>
                     <a onClick={() => setMobileMenue(false)} href="#Testimonials" className='px-4 py-2 rounded inline-block w-full font-bold text-center bg-gray-200'>Testimonials</a>
                     <img src={assets.brand_img}  className='opacity-5 mt-4' alt="" />
-                    <a href="tel: +923237067800" ><button className='md:hidden text-white sm:block hover:bg-blue-400 bg-blue-500 px-20 py-2 rounded font-bold mt-5'>Call me</button></a>
+                    <a href="https://wa.me/923237067800" target='blank' ><button className='md:hidden text-white sm:block hover:bg-blue-400 bg-blue-500 px-20 py-2 rounded font-bold mt-5'>Hire me</button></a>
                 </ul>
             </div>
         </div>

@@ -44,9 +44,9 @@ export const projectsData = [
       image: project_img_1
     },
     {
-      title: "Personal portfolio",
+      title: "Ecommerce website product page",
       price: "Stack:",
-      location: "HTML CSS JavaScript",
+      location: "Wordpress, Woocommerce",
       image: project_img_2
     },
     {
@@ -56,21 +56,21 @@ export const projectsData = [
       image: project_img_3
     },
     {
-      title: "Ecommerce website product page", 
-      price: "Stack:",
-      location: "Wordpress, Woocommerce",
-      image: project_img_4
-    },
-    {
       title: "AC Repairing",
       price: "stack:",
       location: "Wordpress, Elementor",
-      image: project_img_5
+      image: project_img_4
     },
     {
       title: "Personal portfolio",
       price: "Stack:",
       location: "HTML CSS JavaScript",
+      image: project_img_5
+    },
+    {
+      title: "Personal portfolio",
+      price: "Stack:",
+      location: "React JS, Tailwind CSS",
       image: project_img_6
     },
     
