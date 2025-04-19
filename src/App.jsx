@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/Footer'
 import GoToTop from './components/GoToTop'
 import Preloader from './components/Preloader'
+import Certificate from './components/Certificate'
 const App = () => {
   return (
     <div className='w-full overflow-hidden'>
@@ -18,6 +19,7 @@ const App = () => {
         <About />
         <GoToTop />
         <Projects />
+        <Certificate />
         <Testimonials />
         <Contact />
         <Footer />

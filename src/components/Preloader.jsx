@@ -19,8 +19,9 @@ export default function Preloader() {
       <div className="flex flex-col items-center">
         {/* Replace with your actual logo */}
         <div className="w-32 h-32 bg-black-600 rounded-full flex items-center justify-center mb-4">
-          <span className="text-white text-xl font-bold">
+          <span className="text-white text-xl font-bold pb-4">
             <img src={assets.logo} alt="" />
+            <h2>AbdulRehman</h2>
           </span>
         </div>
         

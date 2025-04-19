@@ -21,10 +21,10 @@ const Navbar = () => {
                 <ul className='hidden md:flex gap-8 text-white font-medium text-[18px]'>
                     <a href="#Header" className='cursor-pointer hover:text-gray-400'>Home</a>
                     <a href="#About" className='cursor-pointer hover:text-gray-400'>About</a>
-                    <a href="#Projects" className='cursor-pointer hover:text-gray-400'>Project</a>
+                    <a href="#Certificate" className='cursor-pointer hover:text-gray-400'>Certification</a>
                     <a href="#Testimonials" className='cursor-pointer hover:text-gray-400'>Testimonial</a>
                 </ul>
-                <a href="https://wa.me/923237067800"  target='blank'><button className='hidden text-white md:block hover:bg-blue-400 bg-blue-500 px-8 py-2 rounded font-bold'>Hire me</button></a>
+                <a href="https://wa.me/923237067800"  target='blank'><button className='hidden text-white md:block hover:bg-blue-600 bg-blue-500 px-8 py-2 rounded font-bold transition-colors duration-200'>Hire me</button></a>
                 <img onClick={() => setMobileMenue(true)} src={assets.menu_icon} className='md:hidden w-7 cursor-pointer' alt="" />
             </div>
             {/* ------------Mobile menue--------------- */}
@@ -35,10 +35,9 @@ const Navbar = () => {
                 <ul className='flex flex-col items-center gap-3 mt-8 px-5 text-lg font-medium'>
                     <a onClick={() => setMobileMenue(false)} href="#Header" className='px-4 py-2 rounded inline-block w-full font-bold text-center bg-gray-200'>Home</a>
                     <a onClick={() => setMobileMenue(false)} href="#About" className='px-4 py-2 rounded inline-block w-full font-bold text-center bg-gray-200'>About</a>
-                    <a onClick={() => setMobileMenue(false)} href="#Projects" className='px-4 py-2 rounded inline-block w-full font-bold text-center bg-gray-200'>Projects</a>
-                    <a onClick={() => setMobileMenue(false)} href="#Testimonials" className='px-4 py-2 rounded inline-block w-full font-bold text-center bg-gray-200'>Testimonials</a>
-                    <img src={assets.brand_img}  className='opacity-5 mt-4' alt="" />
-                    <a href="https://wa.me/923237067800" target='blank' ><button className='md:hidden text-white sm:block hover:bg-blue-400 bg-blue-500 px-20 py-2 rounded font-bold mt-5'>Hire me</button></a>
+                    <a onClick={() => setMobileMenue(false)} href="#Certificate" className='px-4 py-2 rounded inline-block w-full font-bold text-center bg-gray-200'>Certification</a>
+                    <a onClick={() => setMobileMenue(false)} href="#Projects" className='px-4 py-2 rounded inline-block w-full font-bold text-center bg-gray-200'>Projects</a>                    <img src={assets.brand_img}  className='opacity-5 mt-4' alt="" />
+                    <a href="https://wa.me/923237067800" target='blank' ><button className='md:hidden text-white sm:block hover:bg-blue-400 bg-blue-500 px-20 py-2 rounded font-bold mt-5 transition-colors duration-200'>Hire me</button></a>
                 </ul>
             </div>
         </div>

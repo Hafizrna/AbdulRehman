@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { assets, projectsData } from '../assets/assets';
+import { assets } from '../assets/assets';
 import { motion } from 'framer-motion';
-
+import { CertificateData } from '../assets/assets'; 
 const Projects = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [visibleCards, setVisibleCards] = useState(1);
@@ -27,7 +27,7 @@ const Projects = () => {
 
     const nextProject = () => {
         setCurrentIndex((prevIndex) => {
-            const maxIndex = projectsData.length - visibleCards;
+            const maxIndex = CertificateData.length - visibleCards;
             return prevIndex >= maxIndex ? maxIndex : prevIndex + 1;
         });
     };
@@ -58,14 +58,14 @@ const Projects = () => {
                 transition={{ duration: 1 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                className="container mx-auto py-4 pb-20 pt-20 px-4 sm:px-6 md:px-20 lg:px-32 w-full"
-                id="Projects"
+                className="container mx-auto py-4 pb-20 pt-20 px-4 sm:px-6 md:px-20 lg:px-32 w-full bg-gray-100"
+                id="Certificate"
             >
                 <h1 className="text-2xl sm:text-4xl font-bold text-center mb-2">
-                    Project <span className="underline underline-offset-4 decoration-1 font-light">completed</span>
+                Certifications <span className="underline underline-offset-4 decoration-1 font-light">completed</span>
                 </h1>
                 <p className="text-center text-gray-500 mb-8 max-w-xs mx-auto">
-                    A showcase of real-world solutions built with passion.
+                Each certificate represents a step forward in my professional journey
                 </p>
                 
                 <div className="flex justify-end items-center mb-8">
@@ -79,9 +79,9 @@ const Projects = () => {
                     </button>
                     <button 
                         onClick={nextProject} 
-                        className={`p-3 rounded transition-colors ${currentIndex >= projectsData.length - visibleCards ? 'bg-gray-100 cursor-not-allowed' : 'bg-gray-200 hover:bg-gray-300'}`}
+                        className={`p-3 rounded transition-colors ${currentIndex >= CertificateData.length - visibleCards ? 'bg-gray-100 cursor-not-allowed' : 'bg-gray-200 hover:bg-gray-300'}`}
                         aria-label="Next Project"
-                        disabled={currentIndex >= projectsData.length - visibleCards}
+                        disabled={currentIndex >= CertificateData.length - visibleCards}
                     >
                         <img src={assets.right_arrow} alt="Next" />
                     </button>
@@ -95,8 +95,8 @@ const Projects = () => {
                             transform: `translateX(-${currentIndex * (100 + (visibleCards > 1 ? 2 : 0)) / visibleCards}%)`,
                         }}
                     >
-                        {projectsData.map((project, index) => {
-                            const isLastItem = index === projectsData.length - 1;
+                        {CertificateData.map((certificate, index) => {
+                            const isLastItem = index === CertificateData.length - 1;
                             return (
                                 <div 
                                     key={index} 
@@ -109,18 +109,18 @@ const Projects = () => {
                                     <div className="relative h-full w-full">
                                         <div className="mb-14 w-full">
                                             <img 
-                                                src={project.image} 
-                                                alt={project.title} 
+                                                src={certificate.image} 
+                                                alt={certificate.title} 
                                                 className="w-full h-64 sm:h-72 md:h-80 object-fit rounded" 
                                             />
                                         </div>
                                         <div className="absolute left-0 right-0 bottom-2 flex justify-center">
                                             <div className="inline-block bg-blue-100 w-4/5 px-4 py-2 shadow-md">
                                                 <h2 className="text-lg font-semibold text-gray-800 truncate">
-                                                    {project.title}
+                                                    {certificate.title}
                                                 </h2>
                                                 <p className="text-sm md:text-base">
-                                                    {project.price} <span className="px-1">|</span> {project.location}
+                                                    {certificate.price} <span className="px-1">|</span> {certificate.location}
                                                 </p>
                                             </div>
                                         </div>
