@@ -8,7 +8,7 @@ const About = () => {
         <motion.div
 
             initial={{ opacity: 0, x: 200 }}
-            transition={{ duration: 1.5, delay: 2.5 }}
+            transition={{ duration: 1.5 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
 
