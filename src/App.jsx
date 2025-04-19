@@ -8,17 +8,19 @@ import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/Footer'
 import GoToTop from './components/GoToTop'
+import Preloader from './components/Preloader'
 const App = () => {
   return (
     <div className='w-full overflow-hidden'>
-      <ToastContainer />
-      <Header />
-      <About />
-      <GoToTop />
-      <Projects />
-      <Testimonials />
-      <Contact />
-      <Footer />
+      <Preloader />
+        <ToastContainer />
+        <Header />
+        <About />
+        <GoToTop />
+        <Projects />
+        <Testimonials />
+        <Contact />
+        <Footer />
     </div>
   )
 }
