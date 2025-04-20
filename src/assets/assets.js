@@ -23,7 +23,8 @@ import c4 from './4.jpg'
 import c5 from './5.jpg'
 import c6 from './6.jpg'
 import c7 from './7.jpg'
-
+import msg from './forum.svg'
+import arrow from './arrow_upward.svg'
 export const assets = {
     logo,
     logo_dark,
@@ -38,6 +39,8 @@ export const assets = {
     project_img_4,
     left_arrow,
     right_arrow,
+    msg,
+    arrow,
 }
 export const CertificateData = [
   {

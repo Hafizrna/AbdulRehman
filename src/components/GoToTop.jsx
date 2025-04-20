@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { assets } from "../assets/assets";
 const GoToTop = () => {
     const [isVisible, setIsVisible] = useState(false);
   const scrollToTop = () => {
@@ -25,10 +26,10 @@ useEffect(()=>{
   return (
     <>
     {isVisible && (<button
-      className="fixed bottom-4 right-4 bg-blue-500 text-white px-4 py-2 rounded z-10 cursor-pointer shadow-lg hover:bg-blue-600 transition-colors duration-200"
+      className="fixed bottom-4 right-4 bg-blue-500 text-white px-2 py-2 rounded-full z-10 cursor-pointer shadow-lg hover:bg-blue-600 transition-colors duration-200"
       onClick={scrollToTop}
     >
-      ↑
+      <img src={assets.arrow} alt="" />
     </button>)}
     </>
   );

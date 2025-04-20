@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import GoToTop from './components/GoToTop'
 import Preloader from './components/Preloader'
 import Certificate from './components/Certificate'
+import Chatbox from './components/Chatbox'
 const App = () => {
   return (
     <div className='w-full overflow-hidden'>
@@ -17,6 +18,7 @@ const App = () => {
         <ToastContainer />
         <Header />
         <About />
+        <Chatbox />
         <GoToTop />
         <Projects />
         <Certificate />
