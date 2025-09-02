@@ -88,13 +88,13 @@ export const CertificateData = [
 ];
 export const projectsData = [
     {
-      title: "Personal portfolio",
+      title: "Personal Portfolio",
       price: "Stack:",
       location: "React JS, Tailwind CSS",
       image: project_img_1
     },
     {
-      title: "Ecommerce product page",
+      title: "Ecommerce Website",
       price: "Stack:",
       location: "Wordpress, Woocommerce",
       image: project_img_2
@@ -112,7 +112,7 @@ export const projectsData = [
       image: project_img_4
     },
     {
-      title: "Personal portfolio",
+      title: "Personal Portfolio",
       price: "Stack:",
       location: "HTML CSS JavaScript",
       image: project_img_5
