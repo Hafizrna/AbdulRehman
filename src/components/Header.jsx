@@ -19,7 +19,7 @@ const Header = () => {
         <p className='text-gray-300 text-3xl mt-4 max-w-2xl mx-auto'>Front-End Developer</p>
         <p className="text-gray-300 text-sm sm:text-base md:text-lg font-normal leading-relaxed mt-4 max-w-2xl mx-auto pt-5">
           With a passion for design and development, I specialize in building sleek, high-impact websites using
-          <span className="text-blue-400 font-semibold"> React.js</span> and <span className="text-blue-400 font-semibold">Tailwind CSS</span>.
+          <span className="text-blue-400 font-semibold"> React.js</span> and <span className="text-blue-400 font-semibold">Wordpress</span>.
           Whether it's a personal brand or a growing business, I turn your vision into reality with code
           that’s not only beautiful — but built to perform.</p>
 
