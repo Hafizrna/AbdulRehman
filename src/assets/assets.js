@@ -88,10 +88,10 @@ export const CertificateData = [
 ];
 export const projectsData = [
     {
-      title: "Personal Portfolio",
+      title: "Digital Agency",
       price: "Stack:",
-      location: "React JS, Tailwind CSS",
-      image: project_img_1
+      location: "Wordpress, Elementor",
+      image: project_img_3
     },
     {
       title: "Ecommerce Website",
@@ -100,10 +100,10 @@ export const projectsData = [
       image: project_img_2
     },
     {
-      title: "Digital Agency",
+      title: "Personal Portfolio",
       price: "Stack:",
-      location: "Wordpress, Elementor",
-      image: project_img_3
+      location: "React JS, Tailwind CSS",
+      image: project_img_1
     },
     {
       title: "AC Repairing",
